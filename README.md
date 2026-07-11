@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Namma Kahoot</h1>
+  <h1>Namma Quiz</h1>
   
   <p>
     <strong>The open-source real-time quiz and interactive learning platform.</strong>
@@ -19,9 +19,9 @@
 
 ## 🌟 Overview
 
-**Namma Kahoot** is an open-source, real-time interactive learning application built entirely in **Dart**. Whether you're hosting a quiz for a classroom, a corporate event, or a fun night with friends, Namma Kahoot provides a seamless, high-performance, and beautiful experience across all platforms.
+**Namma Quiz** is an open-source, real-time interactive learning application built entirely in **Dart**. Whether you're hosting a quiz for a classroom, a corporate event, or a fun night with friends, Namma Quiz provides a seamless, high-performance, and beautiful experience across all platforms.
 
-Inspired by industry leaders, Namma Kahoot leverages the full power of the Dart ecosystem to deliver a unified, full-stack solution.
+Inspired by industry leaders, Namma Quiz leverages the full power of the Dart ecosystem to deliver a unified, full-stack solution.
 
 ## ✨ Key Features
 
@@ -34,7 +34,7 @@ Inspired by industry leaders, Namma Kahoot leverages the full power of the Dart 
 
 ## 🏗️ Architecture
 
-Namma Kahoot is designed as a modern monorepo, separating concerns while sharing a single underlying language: Dart.
+Namma Quiz is designed as a modern monorepo, separating concerns while sharing a single underlying language: Dart.
 
 - **`namma_kahoot_server`**: The brain of the operation. A scalable Serverpod backend handling real-time WebSockets, database interactions, and Redis caching.
 - **`namma_kahoot_client`**: The auto-generated Serverpod client, sharing data models and protocol definitions across the entire workspace.

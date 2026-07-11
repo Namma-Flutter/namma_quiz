@@ -1,6 +1,6 @@
-# Namma Kahoot - Commands Cheat Sheet
+# Namma Quiz - Commands Cheat Sheet
 
-This document contains all the essential commands needed to run, build, and manage the Namma Kahoot application across its Server, UI, and Docker environments.
+This document contains all the essential commands needed to run, build, and manage the Namma Quiz application across its Server, UI, and Docker environments.
 
 ---
 
@@ -60,9 +60,9 @@ The web frontend is built with Jaspr, optimized for web deployment.
 **Start the Jaspr development server (with hot-reload):**
 ```bash
 cd namma_kahoot_jaspr
-jaspr serve
+jaspr serve -p 3000
 ```
-*The web UI will typically be accessible at `http://localhost:8080`.*
+*The web UI will typically be accessible at `http://localhost:3000`.*
 
 **Build the Jaspr app for production:**
 ```bash

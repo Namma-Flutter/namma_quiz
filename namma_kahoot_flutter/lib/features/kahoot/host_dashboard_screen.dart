@@ -166,7 +166,7 @@ class _HostDashboardScreenState extends ConsumerState<HostDashboardScreen> {
               padding: const EdgeInsets.all(32.0),
               child: Column(
                 children: [
-                  const Text('Namma Kahoot Game PIN', style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold)),
+                  const Text('Namma Quiz Game PIN', style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold)),
                   const SizedBox(height: 8),
                   Text(
                     gameState.session?.pin ?? '...',
@@ -711,7 +711,7 @@ class _HostDashboardScreenState extends ConsumerState<HostDashboardScreen> {
                 style: TextStyle(color: Colors.white, fontSize: 32, fontWeight: FontWeight.w900),
               ),
               const Text(
-                'Namma Kahoot Podium Finishers',
+                'Namma Quiz Podium Finishers',
                 style: TextStyle(color: Colors.white60, fontSize: 16, fontWeight: FontWeight.w500),
               ),
               const SizedBox(height: 40),

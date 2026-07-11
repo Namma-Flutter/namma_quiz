@@ -8,7 +8,7 @@ void main() {
     await tester.pumpWidget(const ProviderScope(child: MyApp()));
 
     // Verify that our app shows the home screen widgets.
-    expect(find.text('Namma Kahoot'), findsOneWidget);
+    expect(find.text('Namma Quiz'), findsOneWidget);
     expect(find.text('Join Game (Player)'), findsOneWidget);
     expect(find.text('Host a Game'), findsOneWidget);
     expect(find.text('Admin (Create Quiz)'), findsOneWidget);

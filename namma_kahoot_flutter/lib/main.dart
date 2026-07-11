@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
     final role = currentUri.queryParameters['role'];
 
     return MaterialApp(
-      title: 'Namma Kahoot',
+      title: 'Namma Quiz',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         useMaterial3: true,

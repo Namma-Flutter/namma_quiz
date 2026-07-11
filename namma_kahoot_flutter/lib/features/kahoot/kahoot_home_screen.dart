@@ -154,7 +154,7 @@ class _KahootHomeScreenState extends ConsumerState<KahootHomeScreen> {
                         ),
                         const SizedBox(height: 16),
                         const Text(
-                          'Namma Kahoot',
+                          'Namma Quiz',
                           style: TextStyle(
                             fontSize: 42,
                             fontWeight: FontWeight.w900,

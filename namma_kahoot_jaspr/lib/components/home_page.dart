@@ -16,7 +16,7 @@ class HomePage extends StatelessComponent {
               attributes: {
                 'style': 'font-size:42px;font-weight:900;color:#fff;text-shadow:2px 2px 4px rgba(0,0,0,0.3);',
               },
-              [Component.text('Namma Kahoot')],
+              [Component.text('Namma Quiz')],
             ),
           ],
         ),
@@ -213,7 +213,7 @@ class HomePage extends StatelessComponent {
                     },
                     [
                       i(classes: 'ti ti-bolt', attributes: {'style': 'color:var(--kahoot-purple);'}, []),
-                      Component.text('Namma Kahoot'),
+                      Component.text('Namma Quiz'),
                     ],
                   ),
                   JasprBadge.darkTwoTone(),
@@ -274,7 +274,7 @@ class HomePage extends StatelessComponent {
             attributes: {
               'style': 'border-top:1px solid #333;padding-top:20px;font-size:12px;color:#666;text-align:left;',
             },
-            [Component.text('Copyright © ${DateTime.now().year} Namma Kahoot | MIT License')],
+            [Component.text('Copyright © ${DateTime.now().year} Namma Quiz | MIT License')],
           ),
         ],
       ),
