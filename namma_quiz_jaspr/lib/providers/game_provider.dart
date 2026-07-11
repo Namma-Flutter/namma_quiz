@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:jaspr_riverpod/jaspr_riverpod.dart';
-import 'package:namma_kahoot_client/namma_kahoot_client.dart';
+import '../../../namma_quiz_client/lib/namma_kahoot_client.dart';
 import 'client_provider.dart';
 
 class GameState {

@@ -2,7 +2,7 @@ import 'package:jaspr/dom.dart';
 import 'package:jaspr/jaspr.dart';
 import 'package:jaspr_riverpod/jaspr_riverpod.dart';
 import 'package:jaspr_router/jaspr_router.dart';
-import 'package:namma_kahoot_client/namma_kahoot_client.dart';
+import '../../../namma_quiz_client/lib/namma_kahoot_client.dart';
 import '../providers/client_provider.dart';
 import '../providers/game_provider.dart';
 import 'countdown_timer.dart';

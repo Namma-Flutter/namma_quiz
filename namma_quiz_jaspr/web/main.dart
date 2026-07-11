@@ -1,6 +1,6 @@
 import 'package:jaspr/client.dart';
 import 'package:jaspr_riverpod/jaspr_riverpod.dart';
-import 'package:namma_kahoot_jaspr/components/app.dart';
+import '../lib/components/app.dart';
 
 void main() {
   runApp(
