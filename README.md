@@ -36,13 +36,12 @@ Inspired by industry leaders, Namma Quiz leverages the full power of the Dart ec
 
 Namma Quiz is designed as a modern monorepo, separating concerns while sharing a single underlying language: Dart.
 
-- **`namma_kahoot_server`**: The brain of the operation. A scalable Serverpod backend handling real-time WebSockets, database interactions, and Redis caching.
-- **`namma_kahoot_client`**: The auto-generated Serverpod client, sharing data models and protocol definitions across the entire workspace.
-- **`namma_kahoot_flutter`**: The beautifully crafted mobile and desktop application.
-- **`namma_kahoot_jaspr`**: The lightweight, highly optimized web application tailored for browsers.
+- **`namma_quiz_server`**: The brain of the operation. A scalable Serverpod backend handling real-time WebSockets, database interactions, and Redis caching.
+- **`namma_quiz_client`**: The auto-generated Serverpod client, sharing data models and protocol definitions across the entire workspace.
+- **`namma_quiz_flutter`**: The beautifully crafted mobile and desktop application.
+- **`namma_quiz_jaspr`**: The lightweight, highly optimized web application tailored for browsers.
 
 ---
-
 ## 🚀 Getting Started
 
 Follow these steps to get your local development environment up and running.
@@ -60,7 +59,7 @@ Follow these steps to get your local development environment up and running.
 Start the PostgreSQL and Redis instances in the background:
 
 ```bash
-cd namma_kahoot_server
+cd namma_quiz_server
 docker compose up --build --detach
 ```
 
@@ -69,7 +68,7 @@ docker compose up --build --detach
 Ensure database migrations are applied and start the Serverpod backend:
 
 ```bash
-cd namma_kahoot_server
+cd namma_quiz_server
 dart bin/main.dart --apply-migrations
 ```
 
@@ -78,7 +77,7 @@ dart bin/main.dart --apply-migrations
 In a new terminal window, start the Jaspr development server with hot-reload:
 
 ```bash
-cd namma_kahoot_jaspr
+cd namma_quiz_jaspr
 jaspr serve
 ```
 
@@ -87,14 +86,13 @@ jaspr serve
 In a new terminal window, start the Flutter companion app:
 
 ```bash
-cd namma_kahoot_flutter
+cd namma_quiz_flutter
 flutter run
 ```
 
 *For a full list of commands, check out our [Commands Cheat Sheet](./COMMANDS.md).*
 
 ---
-
 ## 🤝 Contributing
 
 We welcome contributions from the community! Whether it's fixing a bug, improving documentation, or proposing a new feature, your help is appreciated.
